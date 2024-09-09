@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Callback</title>
+</head>
+<body>
+  <script>
+    // Lấy tham số từ URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const status = urlParams.get('status');
+
+    if (status === 'success') {
+      // Thực hiện các hành động cần thiết để cập nhật trạng thái người dùng
+      // Ví dụ: Gửi yêu cầu đến server để đánh dấu người dùng đã nhận key
+
+      // Sau khi hoàn tất, chuyển hướng người dùng về trang chính
+      window.location.href = 'index.html';
+    } else {
+      // Xử lý khi không thành công
+      alert('Đã xảy ra lỗi trong quá trình nhận key.');
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

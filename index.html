@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trang Chính</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js"></script>
+  <script src="js/firebase.js" defer></script>
+  <script src="js/game.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="main-container">
+    <div id="gameSection">
+      <h2>Trò chơi Khủng Long</h2>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+    <div id="rewardSection">
+      <h2>Đổi Thưởng</h2>
+      <div id="points">Điểm: 0</div>
+      <button id="buyShield">Mua Khiên</button>
+      <button id="buySpeed">Mua Tăng Tốc</button>
+    </div>
+    <div id="keySection">
+      <h2>Nhận Key</h2>
+      <button id="getKey">Lấy Key</button>
+    </div>
+  </div>
+</body>
+</html>

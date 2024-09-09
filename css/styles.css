@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+  }
+  
+  .login-container, .main-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #gameCanvas {
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 400px;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #gameSection, #rewardSection, #keySection {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
